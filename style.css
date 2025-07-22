@@ -73,6 +73,16 @@ p { font-weight: 300; font-size: 1.1rem; }
     font-weight: 700;
     color: var(--white);
     text-decoration: none;
+
+    /* Add these lines for better alignment */
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Adjust the space between text and image */
+}
+
+.logo img {
+    height: 2rem; /* Adjust size as needed */
+    width: auto;    /* Maintain aspect ratio */
 }
 
 .nav-links ul {
