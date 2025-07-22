@@ -194,8 +194,8 @@ p { font-weight: 300; font-size: 1.1rem; }
 .timeline { position: relative; max-width: 800px; margin: 50px auto; }
 .timeline::after { content: ''; position: absolute; width: 3px; background-color: var(--green-accent); top: 0; bottom: 0; left: 50%; margin-left: -1.5px; }
 .timeline-item { padding: 10px 40px; position: relative; width: 50%; }
-.timeline-item:nth-child(odd) { left: 0; text-align: right; }
-.timeline-item:nth-child(even) { left: 50%; text-align: left; }
+.timeline-item:nth-child(odd) { left: -9.5%; text-align: right; }
+.timeline-item:nth-child(even) { left: 49.5%; text-align: left; }
 .timeline-item::after { content: ''; position: absolute; width: 20px; height: 20px; background-color: var(--white); border: 4px solid var(--pollen-yellow); top: 25px; border-radius: 50%; z-index: 1; }
 .timeline-item:nth-child(odd)::after { right: -10px; }
 .timeline-item:nth-child(even)::after { left: -10px; }
