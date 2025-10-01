@@ -81,7 +81,7 @@ p { font-weight: 300; font-size: 1.1rem; }
 }
 
 .logo img {
-    height: 2rem; /* Adjust size as needed */
+    height: 6rem; /* Adjust size as needed */
     width: auto;    /* Maintain aspect ratio */
 }
 
